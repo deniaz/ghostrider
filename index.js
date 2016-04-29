@@ -72,6 +72,26 @@ app.post('/register', (req, res) => {
 	}
 });
 
+app.get('/shops', (req, res) => {
+	res.redirect(302, `${apiaryBaseUrl}/shops`);
+});
+
+app.get('/trails', (req, res) => {
+	res.redirect(302, `${apiaryBaseUrl}/shops`);
+});
+
+app.post('/trails/rating', (req, res) => {
+	res.redirect(302, `${apiaryBaseUrl}/shops`);
+});
+
+app.post('/trails/condition', (req, res) => {
+	res.redirect(302, `${apiaryBaseUrl}/shops`);
+});
+
+app.get('/search', (req, res) => {
+	res.redirect(302, `${apiaryBaseUrl}/search`);
+});
+
 app.listen(1337, () => {
 	console.log("Let's Ride!");
 });
