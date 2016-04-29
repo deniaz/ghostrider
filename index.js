@@ -8,6 +8,8 @@ let users = require('./collections/users');
 
 app.use(bodyParser.json());
 
+app.set('port', (process.env.PORT || 1337));
+
 app.post('/login', (req, res) => {
     const login = req.body;
 
@@ -92,6 +94,6 @@ app.get('/search', (req, res) => {
     res.redirect(302, `${apiaryBaseUrl}/search`);
 });
 
-app.listen(1337, () => {
-    console.log("Let's Ride!");
+app.listen(app.get('port'), () => {
+    console.log("Let's Ride on Port", app.get('port'));
 });
