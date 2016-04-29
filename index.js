@@ -51,10 +51,6 @@ app.post('/register', (req, res) => {
         errors.push('password');
     }
 
-    if (!register.terms) {
-        errors.push('terms');
-    }
-
     if (errors.length > 0) {
         res
             .status(400)
