@@ -8,6 +8,10 @@ let users = require('./collections/users');
 
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+    res.status(200).send('Ghostrider.');
+});
+
 app.set('port', (process.env.PORT || 1337));
 
 app.post('/login', (req, res) => {
