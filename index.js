@@ -21,15 +21,15 @@ app.get('/shops', (req, res) => {
 });
 
 app.get('/trails', (req, res) => {
-  res.redirect(302, `${apiaryBaseUrl}/shops`);
+  res.redirect(302, `${apiaryBaseUrl}/trails`);
 });
 
 app.post('/trails/rating', (req, res) => {
-  res.redirect(302, `${apiaryBaseUrl}/shops`);
+  res.redirect(302, `${apiaryBaseUrl}/trails/rating`);
 });
 
 app.post('/trails/condition', (req, res) => {
-  res.redirect(302, `${apiaryBaseUrl}/shops`);
+  res.redirect(302, `${apiaryBaseUrl}/trails/condition`);
 });
 
 app.get('/search', (req, res) => {
