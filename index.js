@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
+const request = require('request');
 
 const apiaryBaseUrl = 'http://private-dcead-traildevils.apiary-mock.com';
 
@@ -17,23 +18,48 @@ app.post('/login', require('./controller/login'));
 app.post('/register', require('./controller/register'));
 
 app.get('/shops', (req, res) => {
-  res.redirect(302, `${apiaryBaseUrl}/shops`);
+  request(`${apiaryBaseUrl}/shops`, (err, response, body) => {
+    res
+      .type('application/json')
+      .status(200)
+      .json(JSON.parse(body));
+  });
 });
 
 app.get('/trails', (req, res) => {
-  res.redirect(302, `${apiaryBaseUrl}/trails`);
+  request(`${apiaryBaseUrl}/trails`, (err, response, body) => {
+    res
+      .type('application/json')
+      .status(200)
+      .json(JSON.parse(body));
+  });
 });
 
 app.post('/trails/rating', (req, res) => {
-  res.redirect(302, `${apiaryBaseUrl}/trails/rating`);
+  request(`${apiaryBaseUrl}/trails/rating`, (err, response, body) => {
+    res
+      .type('application/json')
+      .status(200)
+      .json(JSON.parse(body));
+  });
 });
 
 app.post('/trails/condition', (req, res) => {
-  res.redirect(302, `${apiaryBaseUrl}/trails/condition`);
+  request(`${apiaryBaseUrl}/trails/condition`, (err, response, body) => {
+    res
+      .type('application/json')
+      .status(200)
+      .json(JSON.parse(body));
+  });
 });
 
 app.get('/search', (req, res) => {
-  res.redirect(302, `${apiaryBaseUrl}/search`);
+  request(`${apiaryBaseUrl}/search`, (err, response, body) => {
+    res
+      .type('application/json')
+      .status(200)
+      .json(JSON.parse(body));
+  });
 });
 
 app.listen(app.get('port'), () => {
