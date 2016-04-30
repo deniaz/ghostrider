@@ -22,7 +22,7 @@ function getHeaderImage() {
     'https://s-media-cache-ak0.pinimg.com/736x/b3/46/c7/b346c7f1511d62f5a8e8e8bd6ec131ba.jpg',
     'http://www.bikemag.com/files/2010/01/slide5-600x399.jpg',
   ];
-  
+
   return images[Math.floor(Math.random() * images.length)];
 }
 
@@ -48,6 +48,7 @@ module.exports = function register(req, res) {
       .status(400)
       .send('Please fill out the following fields: ' + errors.join(', '));
   } else {
+
     const user = {
       email: register.email,
       username: register.username,
@@ -61,11 +62,12 @@ module.exports = function register(req, res) {
 
     users.push(user);
 
+    let dto = Object.assign({}, user);
+    delete dto.password;
+
     res
       .type('application/json')
       .status(200)
-      .json({
-        auth_token: user.auth_token,
-      });
+      .json(dto);
   }
 };
