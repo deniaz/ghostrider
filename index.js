@@ -41,7 +41,7 @@ app.get('/trails', (req, res) => {
     res
       .type('application/json')
       .status(200)
-      .json(trailsMock);
+      .json(JSON.parse(body));
   });
 });
 
