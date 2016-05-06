@@ -6,6 +6,8 @@ const request = require('request');
 const apiaryBaseUrl = process.env.APIARY_BASE_URL;
 const traildevilsBaseUrl = process.env.TRAILDEVILS_BASE_URL;
 
+const trails = require('./data/trails.json');
+
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
@@ -36,13 +38,20 @@ app.get('/shops', (req, res) => {
   });
 });
 
+//app.get('/trails', (req, res) => {
+//  request(`${apiaryBaseUrl}/trails`, (err, response, body) => {
+//    res
+//      .type('application/json')
+//      .status(200)
+//      .json(JSON.parse(body));
+//  });
+//});
+
 app.get('/trails', (req, res) => {
-  request(`${apiaryBaseUrl}/trails`, (err, response, body) => {
-    res
-      .type('application/json')
-      .status(200)
-      .json(JSON.parse(body));
-  });
+  res
+    .type('application/json')
+    .status(200)
+    .json(trails);
 });
 
 app.post('/trails/rating', (req, res) => {

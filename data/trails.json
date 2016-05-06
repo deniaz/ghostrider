@@ -1,0 +1,374 @@
+[
+  {
+    "id": "3c9f9e43fb6ac8327a0f08d22ef16453",
+    "name": "Gigeliwald Trail Luzern",
+    "image": "http://traildevils.ch/img/vga/1321ef6ea0aac113a28408d22f018335.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.0451,
+      "lng": 8.29592
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "b00a738dd44cc08b7ae108d22ef1645c",
+    "name": "Biketrail Schwanden-Brienz/ IG Bergvelo",
+    "image": "http://traildevils.ch/img/vga/ba49501b7791cd2f47b708d22f015bb7.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.758,
+      "lng": 8.06336
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "c6ac05868945ccf0334e08d22ef164a4",
+    "name": "Crans Montana Bikepark",
+    "image": "http://traildevils.ch/img/vga/353a0b6242bbc2937c9208d22f01692d.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.3085,
+      "lng": 7.46689
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "5b78710326efc8517fbc08d22ef164c1",
+    "name": "Bellwald",
+    "image": "http://traildevils.ch/img/vga/fc1ec06a52b7c01d303608d2f6482e82.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.4283,
+      "lng": 8.16125
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "74f6a0fbaafcc1e053a108d22ef164e9",
+    "name": "Flims Laax Falera",
+    "image": "http://traildevils.ch/img/vga/55f9a919314ec5f431e008d22f019c91.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.8608,
+      "lng": 9.26971
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "f4664a69a685cd4ad6f008d22ef164f5",
+    "name": "Uetliberg Trail (Antennentrail)",
+    "image": "http://traildevils.ch/img/vga/dbbef164df0fc31b49b508d22f017016.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.3512,
+      "lng": 8.49038
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "afb911d10221c0db4dc508d22ef16508",
+    "name": "Portes du Soleil: Les Gets",
+    "image": "http://traildevils.ch/img/vga/d48cf0fd5eb3c34f1ce208d22f01756c.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.1569,
+      "lng": 6.66956
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "257266f0e714cced285808d22ef1651a",
+    "name": "Portes du Soleil: Châtel",
+    "image": "http://traildevils.ch/img/vga/2c9417ecb25fc0d1812f08d22f0156b0.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.2315,
+      "lng": 6.78826
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "6eddb773b3feccb4e35a08d22ef1651e",
+    "name": "Bikepark Leogang",
+    "image": "http://traildevils.ch/img/vga/c32bc4170ab4cd685a5108d22f0175a3.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.4392,
+      "lng": 12.7188
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "ea83f80f0891cc23537108d22ef16576",
+    "name": "Gempen Trails",
+    "image": "http://traildevils.ch/img/vga/2c6273954e0fc50559ee08d22f01746e.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.478,
+      "lng": 7.64696
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "18c4fad0f6f0c7df8cc808d22ef16580",
+    "name": "Verbier Bikepark",
+    "image": "http://traildevils.ch/img/vga/a94b93da0e56c1fe0c5c08d26cc5d809.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/e463277b01bccb5426e008d26cc674e1.jpg",
+    "latLng": {
+      "lat": 46.0961,
+      "lng": 7.23003
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "dec913ac8b49c37d86dc08d22ef165ce",
+    "name": "Portes du Soleil: Champéry, Les Crosets, Morgins",
+    "image": "http://traildevils.ch/img/vga/39e3064f7979cd1d597f08d22f016dcc.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.177,
+      "lng": 6.86508
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "4369acf598e3c28fd1a608d22ef165d9",
+    "name": "Mottolino Bikepark Livigno",
+    "image": "http://traildevils.ch/img/vga/e85fa69950b9c6cca3af08d2f743ffce.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.53283,
+      "lng": 10.1527843
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "722316985449c73c810008d22ef165ed",
+    "name": "Gurten Trail",
+    "image": "http://traildevils.ch/img/vga/e3dab1d55691c618c6ac08d2fcc7ff6b.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.9195,
+      "lng": 7.44052
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "db17fb77bf7dc3ae927408d22ef165ee",
+    "name": "Älpliseetrail",
+    "image": "http://traildevils.ch/img/vga/08ac602cc449c1dee56408d333a9a784.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/7fbe32ce11f6cd3f614808d333a99577.jpg",
+    "latLng": {
+      "lat": 46.75551,
+      "lng": 9.599505
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "cc2e18c427c7c86740fc08d22ef165f9",
+    "name": "Lac Blanc",
+    "image": "http://traildevils.ch/img/vga/a829528a8a0ac005086808d22f017f57.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 48.1456,
+      "lng": 7.07751
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "8bbe7a17958ec2ba230f08d22ef165fe",
+    "name": "Biel Trail",
+    "image": "http://traildevils.ch/img/vga/bef5d5cc4807c54dc83308d22f016241.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.1388,
+      "lng": 7.21424
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "e1569db0cdc7c52910b908d22ef16623",
+    "name": "Wiriehorn Downhill Hot-Trail",
+    "image": "http://traildevils.ch/img/vga/247edf54f9fcc0e5784908d2cf07b9d6.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.6123,
+      "lng": 7.53336
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "6c79a0896f66cf05c1b608d22ef16648",
+    "name": "Lenzerheide Bikepark",
+    "image": "http://traildevils.ch/img/vga/b1b8ca116d45ce10892008d333aa47c7.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/26565e092ce0c7d70e1408d333aa2039.jpg",
+    "latLng": {
+      "lat": 46.7404823,
+      "lng": 9.558251
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "ffaa1caa8752c0f0958c08d22ef1669f",
+    "name": "Todtnau",
+    "image": "http://traildevils.ch/img/vga/338e97682ae7c2fbfc5808d22f017cbc.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.829,
+      "lng": 7.94845
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "9b0fd91c8df5c7197bc708d22ef166a2",
+    "name": "Runcatrail",
+    "image": "http://traildevils.ch/img/vga/9f6af7ab34efc177d7d008d36f3e3ab5.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.8627739,
+      "lng": 9.252687
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "4edd2ebc0d34c87cc0b508d22ef166cc",
+    "name": "Alpenbikepark Chur",
+    "image": "http://traildevils.ch/img/vga/35a03a1b25a8c28531ab08d3483764cd.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.8472,
+      "lng": 9.52578
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "e8e317a239d6c6ff7fdf08d22ef166cf",
+    "name": "Chaumont - Neuchâtel",
+    "image": "http://traildevils.ch/img/vga/7f9afbe0c447cd7139de08d22f01660e.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.0087,
+      "lng": 6.96089
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "1c3dec24cdc7cb234c5508d22ef166d5",
+    "name": "Monte Tamaro",
+    "image": "http://traildevils.ch/img/vga/8c7936105273cb37eb4208d22f016ded.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.1129,
+      "lng": 8.90957
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "bfd214f0f2fccce6e03608d22ef16708",
+    "name": "Gotschna Freeride - Bündner A-Line Klosters Davos",
+    "image": "http://traildevils.ch/img/vga/1cc3720566f7c66233fd08d22f018de0.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.8621521,
+      "lng": 9.85838
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "1ab04b4537b6cd0c2f1908d22ef16741",
+    "name": "Finale Ligure",
+    "image": "http://traildevils.ch/img/vga/a14a9079206fcac3cc3108d22f01792e.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 44.1752,
+      "lng": 8.32422
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "3337cf58c828ce5ad38d08d22ef1679b",
+    "name": "Bikepark Brandnertal",
+    "image": null,
+    "headerImage": "http://traildevils.ch/img/xga/665dc96714f8c3deb0c008d2f10496eb.jpg",
+    "latLng": {
+      "lat": 47.1459846,
+      "lng": 9.761788
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "2877a128cb6fc417f4c208d26cc9c168",
+    "name": "Ruinettes - Plannards - Verbier",
+    "image": "http://traildevils.ch/img/vga/4bc2f2816707c2167b5408d26cc93220.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/efce13e8b128cc6dae1208d26cca3b68.jpg",
+    "latLng": {
+      "lat": 46.0905266,
+      "lng": 7.25164175
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "8f635d17a3afcb08b06908d3180c54f7",
+    "name": "Rothorn - Tiefencastel",
+    "image": "http://traildevils.ch/img/vga/8202098c879dc82962f608d333aefe17.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/e8387f14421ec9f11f7108d333aeec69.jpg",
+    "latLng": {
+      "lat": 46.74216,
+      "lng": 9.599218
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "719834a2b8c4cfe0d15f08d35a11a647",
+    "name": "Pumptrack \"Rolling @ Bäckelar Wirt\" Sölden",
+    "image": "http://traildevils.ch/img/vga/d55258dec5c7c002ae2108d373564760.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/0fb0e30af5c0c2d30ea908d373566bfe.jpg",
+    "latLng": {
+      "lat": 46.959713,
+      "lng": 11.0095329
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "ea2285e3bbfac3231a3308d35a12ba37",
+    "name": "Teäre Line Sölden",
+    "image": "http://traildevils.ch/img/vga/fd36c496c867c82249b808d3735b31f5.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/6fea0353f6c8c078e3f108d35a134bd6.jpg",
+    "latLng": {
+      "lat": 46.95252,
+      "lng": 10.9916592
+    },
+    "ratingValue": 0,
+    "conditionEstimation": 0
+  }
+]
