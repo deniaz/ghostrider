@@ -1,5 +1,17 @@
 [
   {
+    "id": "e7c3dc86155dc588f79208d22ef1644f",
+    "name": "Bikepark Winterberg",
+    "image": "http://traildevils.ch/img/vga/405d2a0a1878cf46f6e408d22f015799.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 51.1851,
+      "lng": 8.50434
+    },
+    "ratingValue": 5,
+    "conditionEstimation": 4
+  },
+  {
     "id": "3c9f9e43fb6ac8327a0f08d22ef16453",
     "name": "Gigeliwald Trail Luzern",
     "image": "http://traildevils.ch/img/vga/1321ef6ea0aac113a28408d22f018335.jpg",
@@ -8,8 +20,8 @@
       "lat": 47.0451,
       "lng": 8.29592
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 4.5,
+    "conditionEstimation": 3
   },
   {
     "id": "b00a738dd44cc08b7ae108d22ef1645c",
@@ -20,8 +32,20 @@
       "lat": 46.758,
       "lng": 8.06336
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 3,
+    "conditionEstimation": 4
+  },
+  {
+    "id": "4f0a7d5820e4c0bec5ab08d22ef16467",
+    "name": "Zürichberg Pumptrack",
+    "image": "http://traildevils.ch/img/vga/2ba643956f64cffff0ed08d22f01a846.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.3892,
+      "lng": 8.56219
+    },
+    "ratingValue": 5,
+    "conditionEstimation": 1
   },
   {
     "id": "c6ac05868945ccf0334e08d22ef164a4",
@@ -32,8 +56,8 @@
       "lat": 46.3085,
       "lng": 7.46689
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 5,
+    "conditionEstimation": 3
   },
   {
     "id": "5b78710326efc8517fbc08d22ef164c1",
@@ -44,8 +68,20 @@
       "lat": 46.4283,
       "lng": 8.16125
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 3,
+    "conditionEstimation": 2
+  },
+  {
+    "id": "d435e148c075caac20f808d22ef164c9",
+    "name": "Elif-Trail",
+    "image": "http://traildevils.ch/img/vga/23872a10dc70cec21f3908d22f016327.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.3696,
+      "lng": 8.58818
+    },
+    "ratingValue": 3,
+    "conditionEstimation": 4
   },
   {
     "id": "74f6a0fbaafcc1e053a108d22ef164e9",
@@ -56,8 +92,8 @@
       "lat": 46.8608,
       "lng": 9.26971
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 3,
+    "conditionEstimation": 1
   },
   {
     "id": "f4664a69a685cd4ad6f008d22ef164f5",
@@ -68,7 +104,7 @@
       "lat": 47.3512,
       "lng": 8.49038
     },
-    "ratingValue": 0,
+    "ratingValue": 2,
     "conditionEstimation": 0
   },
   {
@@ -80,8 +116,8 @@
       "lat": 46.1569,
       "lng": 6.66956
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 2.5,
+    "conditionEstimation": 4
   },
   {
     "id": "257266f0e714cced285808d22ef1651a",
@@ -92,7 +128,7 @@
       "lat": 46.2315,
       "lng": 6.78826
     },
-    "ratingValue": 0,
+    "ratingValue": 1,
     "conditionEstimation": 0
   },
   {
@@ -104,7 +140,19 @@
       "lat": 47.4392,
       "lng": 12.7188
     },
-    "ratingValue": 0,
+    "ratingValue": 3.5,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "bd56742b09a6c766406a08d22ef16534",
+    "name": "Saalbach Hinterglemm",
+    "image": "http://traildevils.ch/img/vga/4de5fa950016c7f3dddf08d22f0174f3.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.3913,
+      "lng": 12.6366
+    },
+    "ratingValue": 2,
     "conditionEstimation": 0
   },
   {
@@ -116,8 +164,8 @@
       "lat": 47.478,
       "lng": 7.64696
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 3,
+    "conditionEstimation": 2
   },
   {
     "id": "18c4fad0f6f0c7df8cc808d22ef16580",
@@ -128,7 +176,19 @@
       "lat": 46.0961,
       "lng": 7.23003
     },
-    "ratingValue": 0,
+    "ratingValue": 4,
+    "conditionEstimation": 2
+  },
+  {
+    "id": "8de85f023d79cdec804e08d22ef16586",
+    "name": "Dirtpark Schiesskanal",
+    "image": "http://traildevils.ch/img/vga/647ba049bba1ceb6208608d22f015c5f.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.9694,
+      "lng": 7.38283
+    },
+    "ratingValue": 4,
     "conditionEstimation": 0
   },
   {
@@ -140,8 +200,8 @@
       "lat": 46.177,
       "lng": 6.86508
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 5,
+    "conditionEstimation": 3
   },
   {
     "id": "4369acf598e3c28fd1a608d22ef165d9",
@@ -152,8 +212,20 @@
       "lat": 46.53283,
       "lng": 10.1527843
     },
-    "ratingValue": 0,
+    "ratingValue": 1,
     "conditionEstimation": 0
+  },
+  {
+    "id": "8910542f1fa2c58328ea08d22ef165df",
+    "name": "Arosa Hörnli",
+    "image": "http://traildevils.ch/img/vga/0b9e1cc226dccc89006808d22f016ccc.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.7664,
+      "lng": 9.62099
+    },
+    "ratingValue": 5.5,
+    "conditionEstimation": 3
   },
   {
     "id": "722316985449c73c810008d22ef165ed",
@@ -164,8 +236,8 @@
       "lat": 46.9195,
       "lng": 7.44052
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 4,
+    "conditionEstimation": 4
   },
   {
     "id": "db17fb77bf7dc3ae927408d22ef165ee",
@@ -176,7 +248,7 @@
       "lat": 46.75551,
       "lng": 9.599505
     },
-    "ratingValue": 0,
+    "ratingValue": 1,
     "conditionEstimation": 0
   },
   {
@@ -188,8 +260,8 @@
       "lat": 48.1456,
       "lng": 7.07751
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 1,
+    "conditionEstimation": 4
   },
   {
     "id": "8bbe7a17958ec2ba230f08d22ef165fe",
@@ -200,7 +272,7 @@
       "lat": 47.1388,
       "lng": 7.21424
     },
-    "ratingValue": 0,
+    "ratingValue": 1.5,
     "conditionEstimation": 0
   },
   {
@@ -212,8 +284,8 @@
       "lat": 46.6123,
       "lng": 7.53336
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 4.5,
+    "conditionEstimation": 1
   },
   {
     "id": "6c79a0896f66cf05c1b608d22ef16648",
@@ -224,8 +296,8 @@
       "lat": 46.7404823,
       "lng": 9.558251
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 4.5,
+    "conditionEstimation": 2
   },
   {
     "id": "ffaa1caa8752c0f0958c08d22ef1669f",
@@ -236,8 +308,8 @@
       "lat": 47.829,
       "lng": 7.94845
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 5,
+    "conditionEstimation": 4
   },
   {
     "id": "9b0fd91c8df5c7197bc708d22ef166a2",
@@ -248,8 +320,20 @@
       "lat": 46.8627739,
       "lng": 9.252687
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 3.5,
+    "conditionEstimation": 1
+  },
+  {
+    "id": "84202d5266e5c152090a08d22ef166bd",
+    "name": "Wurzelweg",
+    "image": null,
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.9966,
+      "lng": 8.25764
+    },
+    "ratingValue": 5.5,
+    "conditionEstimation": 3
   },
   {
     "id": "4edd2ebc0d34c87cc0b508d22ef166cc",
@@ -260,8 +344,8 @@
       "lat": 46.8472,
       "lng": 9.52578
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 5.5,
+    "conditionEstimation": 2
   },
   {
     "id": "e8e317a239d6c6ff7fdf08d22ef166cf",
@@ -272,8 +356,8 @@
       "lat": 47.0087,
       "lng": 6.96089
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 2,
+    "conditionEstimation": 3
   },
   {
     "id": "1c3dec24cdc7cb234c5508d22ef166d5",
@@ -284,7 +368,43 @@
       "lat": 46.1129,
       "lng": 8.90957
     },
-    "ratingValue": 0,
+    "ratingValue": 4.5,
+    "conditionEstimation": 4
+  },
+  {
+    "id": "968b3b5b436fc6b67c8808d22ef166da",
+    "name": "Bad Wildbad",
+    "image": "http://traildevils.ch/img/vga/ae5cf16e2338ca72af7408d22f018137.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 48.7484,
+      "lng": 8.53027
+    },
+    "ratingValue": 2.5,
+    "conditionEstimation": 0
+  },
+  {
+    "id": "5a734b0f6a10c81c107a08d22ef166df",
+    "name": "St. Chrischona       FR / NS",
+    "image": "http://traildevils.ch/img/vga/8ae642a7cd79c011731908d22f0165e0.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.5724,
+      "lng": 7.67236
+    },
+    "ratingValue": 3,
+    "conditionEstimation": 2
+  },
+  {
+    "id": "8786d8cfab0cccdb93c908d22ef166eb",
+    "name": "Hoch-Ybrig",
+    "image": "http://traildevils.ch/img/vga/c4b76212c455cf671ff608d22f015bae.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.0089,
+      "lng": 8.78975
+    },
+    "ratingValue": 3.5,
     "conditionEstimation": 0
   },
   {
@@ -296,8 +416,8 @@
       "lat": 46.8621521,
       "lng": 9.85838
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 4,
+    "conditionEstimation": 1
   },
   {
     "id": "1ab04b4537b6cd0c2f1908d22ef16741",
@@ -308,8 +428,32 @@
       "lat": 44.1752,
       "lng": 8.32422
     },
-    "ratingValue": 0,
+    "ratingValue": 2.5,
+    "conditionEstimation": 2
+  },
+  {
+    "id": "4a6bda6dcf99c1bbef0608d22ef1677b",
+    "name": "Funpark Steffisburg",
+    "image": "http://traildevils.ch/img/vga/2ddbdada9829cab5c5b508d22f016456.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.7698,
+      "lng": 7.6178
+    },
+    "ratingValue": 3,
     "conditionEstimation": 0
+  },
+  {
+    "id": "85649f0191aecb92996508d22ef16788",
+    "name": "Freeridetrail Rufiberg/Arth",
+    "image": "http://traildevils.ch/img/vga/51cfd812ad3fc97c6db608d22f01895b.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.0896,
+      "lng": 8.54938
+    },
+    "ratingValue": 4.5,
+    "conditionEstimation": 1
   },
   {
     "id": "3337cf58c828ce5ad38d08d22ef1679b",
@@ -320,8 +464,32 @@
       "lat": 47.1459846,
       "lng": 9.761788
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 1.5,
+    "conditionEstimation": 1
+  },
+  {
+    "id": "f46f168c4c6cce60235208d22ef167ae",
+    "name": "Hombergegg",
+    "image": "http://traildevils.ch/img/vga/2a7c07ef7d8ecc3dad3608d22f017ab2.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.429,
+      "lng": 8.06671
+    },
+    "ratingValue": 5.5,
+    "conditionEstimation": 4
+  },
+  {
+    "id": "5f62c8776b39c3c8dca008d22ef167cf",
+    "name": "Haldi",
+    "image": "http://traildevils.ch/img/vga/7c1e7e34620cc9fe119d08d244168ca1.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 46.8652,
+      "lng": 8.6558
+    },
+    "ratingValue": 2,
+    "conditionEstimation": 1
   },
   {
     "id": "2877a128cb6fc417f4c208d26cc9c168",
@@ -332,8 +500,8 @@
       "lat": 46.0905266,
       "lng": 7.25164175
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 2,
+    "conditionEstimation": 1
   },
   {
     "id": "8f635d17a3afcb08b06908d3180c54f7",
@@ -344,8 +512,8 @@
       "lat": 46.74216,
       "lng": 9.599218
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 2.5,
+    "conditionEstimation": 3
   },
   {
     "id": "719834a2b8c4cfe0d15f08d35a11a647",
@@ -356,8 +524,8 @@
       "lat": 46.959713,
       "lng": 11.0095329
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 1.5,
+    "conditionEstimation": 1
   },
   {
     "id": "ea2285e3bbfac3231a3308d35a12ba37",
@@ -368,7 +536,7 @@
       "lat": 46.95252,
       "lng": 10.9916592
     },
-    "ratingValue": 0,
-    "conditionEstimation": 0
+    "ratingValue": 5,
+    "conditionEstimation": 1
   }
 ]
