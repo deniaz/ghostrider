@@ -37,7 +37,7 @@ app.get('/shops', (req, res) => {
 });
 
 app.get('/trails', (req, res) => {
-  request(`${traildevilsBaseUrl}/trails`, (err, response, body) => {
+  request(`${apiaryBaseUrl}/trails`, (err, response, body) => {
     res
       .type('application/json')
       .status(200)
