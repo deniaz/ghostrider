@@ -106,6 +106,17 @@ app.get('/trails', (req, res) => {
       latLng: { lat: 49.7655, lng: 11.3446 },
       ratingValue: 2.5,
       conditionEstimation: 0
+    }, {
+      id: "18c4fad0f6f0c7df8cc808d22ef16580",
+      name: "Verbier Bikepark",
+      image: "http://traildevils.ch/img/vga/a94b93da0e56c1fe0c5c08d26cc5d809.jpg",
+      headerImage: "http://traildevils.ch/img/xga/e463277b01bccb5426e008d26cc674e1.jpg",
+      latLng: {
+        lat: 46.0961,
+        lng: 7.23003,
+      },
+      ratingValue: 0,
+      conditionEstimation: 0
     }]);
 });
 
