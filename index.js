@@ -48,10 +48,21 @@ app.get('/shops', (req, res) => {
 //});
 
 app.get('/trails', (req, res) => {
-  res
-    .type('application/json')
-    .status(200)
-    .json(trails);
+  if (req.query.q && req.query.q.length > 0) {
+    res
+      .type('application/json')
+      .status(200)
+      .json(trails.filter(
+        el => el.name
+          .toLowerCase()
+          .includes(req.query.q.toLowerCase())
+      ));
+  } else {
+    res
+      .type('application/json')
+      .status(200)
+      .json(trails);
+  }
 });
 
 app.post('/trails/rating', (req, res) => {
