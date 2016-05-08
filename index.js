@@ -77,6 +77,13 @@ app.get('/trails', (req, res) => {
   }
 });
 
+app.get('/tracks', (req, res) => {
+  res
+    .type('application/json')
+    .status(200)
+    .json(require('./data/tracks.json'));
+})
+
 app.post('/trails/rating', (req, res) => {
   request(`${apiaryBaseUrl}/trails/rating`, (err, response, body) => {
     res
