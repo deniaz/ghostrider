@@ -7,6 +7,7 @@ const apiaryBaseUrl = process.env.APIARY_BASE_URL;
 const traildevilsBaseUrl = process.env.TRAILDEVILS_BASE_URL;
 
 const trails = require('./data/trails.json');
+const shops = require('./data/shops.json');
 
 app.use(bodyParser.json());
 
@@ -41,33 +42,22 @@ app.get('/destinations', (req, res) => {
 });
 
 app.get('/shops', (req, res) => {
-  request(`${traildevilsBaseUrl}/dealers`, (err, response, body) => {
-    if (req.query.q && req.query.q.length > 0) {
-      res
-        .type('application/json')
-        .status(200)
-        .json(JSON.parse(body).filter(
-          el => el.name
-            .toLowerCase()
-            .includes(req.query.q.toLowerCase())
-        ));
-    } else {
-      res
-        .type('application/json')
-        .status(200)
-        .json(JSON.parse(body));
-    }
-  });
+  if (req.query.q && req.query.q.length > 0) {
+    res
+      .type('application/json')
+      .status(200)
+      .json(shops.filter(
+        el => el.name
+          .toLowerCase()
+          .includes(req.query.q.toLowerCase())
+      ));
+  } else {
+    res
+      .type('application/json')
+      .status(200)
+      .json(shops);
+  }
 });
-
-//app.get('/trails', (req, res) => {
-//  request(`${apiaryBaseUrl}/trails`, (err, response, body) => {
-//    res
-//      .type('application/json')
-//      .status(200)
-//      .json(JSON.parse(body));
-//  });
-//});
 
 app.get('/trails', (req, res) => {
   if (req.query.q && req.query.q.length > 0) {

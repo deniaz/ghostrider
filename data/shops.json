@@ -1,0 +1,212 @@
+[
+  {
+    "id": "72ff7604ae9ac10b44d608d22ee961e5",
+    "name": "Stützrädli's Velo-Werkstatt",
+    "image": "http://traildevils.ch/img/vga/5897b6bff9d3cae3abd308d2df831a11.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/b207ecf6ff12c3a3808308d23cf850fe.jpg",
+    "latLng": {
+      "lat": 47.5326,
+      "lng": 9.06889
+    }
+  },
+  {
+    "id": "de94b9177a2fc538c90a08d22ee96437",
+    "name": "Radix Liestal",
+    "image": "http://traildevils.ch/img/vga/92a8bb903196ca13359c08d22ef77265.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.4844,
+      "lng": 7.73562
+    }
+  },
+  {
+    "id": "3bdea6a6d373c396258008d22ee9688f",
+    "name": "Trailworks",
+    "image": "http://traildevils.ch/img/vga/24d22d4c98bcca3f02c408d22ef772d2.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.0247,
+      "lng": 9.08205
+    }
+  },
+  {
+    "id": "805447e639b6c3b4dc4d08d22ee96b30",
+    "name": "Rüegger Bike- Sport",
+    "image": "http://traildevils.ch/img/vga/e88b8e6608d1c4d01c4808d27c6c6189.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/9c701a93d8f5c8744d7d08d27c706cf7.jpg",
+    "latLng": {
+      "lat": 47.4117,
+      "lng": 9.19135
+    }
+  },
+  {
+    "id": "4453641ce63bc5409f6e08d22ee96f25",
+    "name": "Transalpes Bike Manufaktur",
+    "image": "http://traildevils.ch/img/vga/f33fdaca6531c72b574408d22ef773a7.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/1cd815a7e20ccef1a0ac08d33d160848.jpg",
+    "latLng": {
+      "lat": 47.2865,
+      "lng": 8.43544
+    }
+  },
+  {
+    "id": "ec9dd3a2bdbdce1a221008d22ee971d2",
+    "name": "cycling-parts.ch",
+    "image": "http://traildevils.ch/img/vga/99eb94f29689caf4343c08d22ef77403.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.1749,
+      "lng": 8.71253
+    }
+  },
+  {
+    "id": "99a805f0153acb42f2ba08d22ee974ee",
+    "name": "Engadin Bikes",
+    "image": "http://traildevils.ch/img/vga/d47631dc89facd017a3708d321868458.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/2257dd010618cf3473cd08d3227e9c28.jpg",
+    "latLng": {
+      "lat": 46.4881,
+      "lng": 9.83588
+    }
+  },
+  {
+    "id": "ad25b6a0f3c7c0b5c78c08d22ee97841",
+    "name": "bikeride.ch",
+    "image": "http://traildevils.ch/img/vga/c268347e751bcbf479cd08d22ef774c3.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/fc3f7a28957dca39535a08d33f528b59.jpg",
+    "latLng": {
+      "lat": 47.357,
+      "lng": 8.43517
+    }
+  },
+  {
+    "id": "740446d39039c28a74b008d22ee97b1b",
+    "name": "Velociped",
+    "image": "http://traildevils.ch/img/vga/d99e50910e69c58d4da208d22ef7751a.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.0337,
+      "lng": 8.28011
+    }
+  },
+  {
+    "id": "ee3edd5491accbb949d508d22ee97cae",
+    "name": "KRAFTWERK - rockthisbike.ch",
+    "image": "http://traildevils.ch/img/vga/c29384cc189ccf91371408d22ef77570.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.0114,
+      "lng": 7.6585
+    }
+  },
+  {
+    "id": "2dfff68947a8c78cfad408d22ee98145",
+    "name": "Zofinger2RadCenter",
+    "image": "http://traildevils.ch/img/vga/a55beb85dc37c32d80dd08d22ef775ff.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/fc8e9565e980c343d23908d23075bf54.jpg",
+    "latLng": {
+      "lat": 47.2874,
+      "lng": 7.93951
+    }
+  },
+  {
+    "id": "9475c30bdf74c709953908d22ee9875d",
+    "name": "MonkeyHead-Cycles",
+    "image": "http://traildevils.ch/img/vga/e60653d68041cb12930308d22ef77667.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.41973,
+      "lng": 7.50871563
+    }
+  },
+  {
+    "id": "bee5994a5204cd6ef12108d22ee98bd2",
+    "name": "Ride'em All",
+    "image": "http://traildevils.ch/img/vga/1b38260b12f7c2b8472808d22ef7770f.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/6e3745722995c9f85dc508d2cbca2702.jpg",
+    "latLng": {
+      "lat": 47.3268,
+      "lng": 8.79756
+    }
+  },
+  {
+    "id": "b5a63b2e7c8ac136848208d22ee98e77",
+    "name": "TOMS BIKE",
+    "image": "http://traildevils.ch/img/vga/1d82bb3ee637c125eef308d22ef7775e.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.3197,
+      "lng": 8.79179
+    }
+  },
+  {
+    "id": "2a51627fd6ddca7bfeac08d22ee99207",
+    "name": "Büschlen Bikesport & more",
+    "image": "http://traildevils.ch/img/vga/127c64429c81cb23a46e08d2303016df.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/57e2e9065fccc1eeda3a08d2302ea96a.jpg",
+    "latLng": {
+      "lat": 46.4948,
+      "lng": 7.56297
+    }
+  },
+  {
+    "id": "9c342d67eb2dcdee9bb508d22ee9952a",
+    "name": "Bike Zone Windisch",
+    "image": "http://traildevils.ch/img/vga/57c5951f65dfcddff61308d22ef7786b.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.4791,
+      "lng": 8.21919
+    }
+  },
+  {
+    "id": "464738fecf5cc05dd65108d2680b1015",
+    "name": "Thömus Veloshop",
+    "image": "http://traildevils.ch/img/vga/b66a1bf95beacf87357f08d2680b5632.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/d1fca2dfa195ccd8af4508d2680f13e9.jpg",
+    "latLng": {
+      "lat": 46.88907,
+      "lng": 7.36739826
+    }
+  },
+  {
+    "id": "feb854ea8903cd8e8a2608d2e551fb37",
+    "name": "trailgate Bikeshop",
+    "image": "http://traildevils.ch/img/vga/dddc4f558414c13be98608d2e552442e.jpg",
+    "headerImage": null,
+    "latLng": {
+      "lat": 47.43944,
+      "lng": 7.53143454
+    }
+  },
+  {
+    "id": "9806804ae887cb82815008d3007f727c",
+    "name": "bikelocal",
+    "image": "http://traildevils.ch/img/vga/041bbf9e2e35c698559408d30081a7a5.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/6850bf70938dc5e3551708d30080730d.jpg",
+    "latLng": {
+      "lat": 47.05589,
+      "lng": 8.311516
+    }
+  },
+  {
+    "id": "9b568fd71e6bcb35f16708d31e3ca76c",
+    "name": "Brunusbike",
+    "image": "http://traildevils.ch/img/vga/6b642f0535e6c7e5decf08d31e3e2b7e.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/6666b7a8c085c6b9069b08d31e3d87e6.jpg",
+    "latLng": {
+      "lat": 47.4914169,
+      "lng": 8.898491
+    }
+  },
+  {
+    "id": "53ff3b0c5192c7bc5a8208d35373dd8e",
+    "name": "TRAIL QUEEN",
+    "image": "http://traildevils.ch/img/vga/c348777465d2c5c71a1c08d3537465fe.jpg",
+    "headerImage": "http://traildevils.ch/img/xga/2aab6df5d630cbda966408d353747c6b.jpg",
+    "latLng": {
+      "lat": 47.3918266,
+      "lng": 8.53993
+    }
+  }
+]
