@@ -21,7 +21,7 @@ app.post('/login', require('./controller/login'));
 app.post('/register', require('./controller/register'));
 
 app.get('/destinations', (req, res) => {
-  request(`${apiaryBaseUrl}/destinations`, (err, response, body) => {
+  request(`${traildevilsBaseUrl}/destinations`, (err, response, body) => {
     res
       .type('application/json')
       .status(200)
