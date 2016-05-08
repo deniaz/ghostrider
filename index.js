@@ -22,10 +22,21 @@ app.post('/register', require('./controller/register'));
 
 app.get('/destinations', (req, res) => {
   request(`${traildevilsBaseUrl}/destinations`, (err, response, body) => {
-    res
-      .type('application/json')
-      .status(200)
-      .json(JSON.parse(body));
+    if (req.query.q && req.query.q.length > 0) {
+      res
+        .type('application/json')
+        .status(200)
+        .json(JSON.parse(body).filter(
+          el => el.name
+            .toLowerCase()
+            .includes(req.query.q.toLowerCase())
+        ));
+    } else {
+      res
+        .type('application/json')
+        .status(200)
+        .json(JSON.parse(body));
+    }
   });
 });
 
