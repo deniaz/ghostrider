@@ -41,7 +41,7 @@ app.get('/destinations', (req, res) => {
 });
 
 app.get('/shops', (req, res) => {
-  request(`${traildevilsBaseUrl}/shops`, (err, response, body) => {
+  request(`${traildevilsBaseUrl}/dealers`, (err, response, body) => {
     if (req.query.q && req.query.q.length > 0) {
       res
         .type('application/json')
