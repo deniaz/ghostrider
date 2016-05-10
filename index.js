@@ -85,25 +85,21 @@ app.get('/tracks', (req, res) => {
 })
 
 app.post('/trails/rating', (req, res) => {
-  const msg = req.body;
-
-  request.post(`${apiaryBaseUrl}/trails/rating`, msg, (err, response, body) => {
-    res
-      .type('application/json')
-      .status(200)
-      .json(JSON.parse(body));
-  });
+  res
+    .type('application/json')
+    .status(200)
+    .json({
+      rating: req.body.rating,
+    });
 });
 
 app.post('/trails/condition', (req, res) => {
-  const msg = req.body;
-
-  request.post(`${apiaryBaseUrl}/trails/condition`, msg, (err, response, body) => {
-    res
-      .type('application/json')
-      .status(200)
-      .json(JSON.parse(body));
-  });
+  res
+    .type('application/json')
+    .status(200)
+    .json({
+      condition: req.body.condition,
+    });
 });
 
 app.get('/search', (req, res) => {
