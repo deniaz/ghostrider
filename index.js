@@ -85,7 +85,9 @@ app.get('/tracks', (req, res) => {
 })
 
 app.post('/trails/rating', (req, res) => {
-  request(`${apiaryBaseUrl}/trails/rating`, (err, response, body) => {
+  const msg = req.body;
+
+  request.post(`${apiaryBaseUrl}/trails/rating`, msg, (err, response, body) => {
     res
       .type('application/json')
       .status(200)
@@ -94,7 +96,9 @@ app.post('/trails/rating', (req, res) => {
 });
 
 app.post('/trails/condition', (req, res) => {
-  request(`${apiaryBaseUrl}/trails/condition`, (err, response, body) => {
+  const msg = req.body;
+
+  request.post(`${apiaryBaseUrl}/trails/condition`, msg, (err, response, body) => {
     res
       .type('application/json')
       .status(200)
