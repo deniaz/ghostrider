@@ -68,7 +68,7 @@ app.get('/shops/:id', (req, res) => {
     shop.openingTimes = 'Mo - Fr: 8.00 - 17.00\nSa: 10.00 - 14.00';
     shop.website = 'http://example.com';
     shop.phone = '+41 23 456 78 90';
-    shop.addres = 'Example Road 42\n8000 Zürich';
+    shop.address = 'Example Road 42\n8000 Zürich';
     shop.ratingValue = Math.floor(Math.random() * 4) + 1;
     shop.recommendations = 42;
 
