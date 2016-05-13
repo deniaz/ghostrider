@@ -41,6 +41,27 @@ app.get('/destinations', (req, res) => {
   });
 });
 
+app.get('/destinations/:id', (req, res) => {
+  request(`${traildevilsBaseUrl}/destinations`, (err, response, body) => {
+    const destinations = JSON.parse(body);
+    const destination = destinations.find(el => el.id === req.params.id);
+
+    if (destination) {
+      destination.trails = [];
+
+      res
+        .type('application/json')
+        .status(200)
+        .json(destination);
+    } else {
+      res
+        .type('application/json')
+        .status(404)
+        .send();
+    }
+  });
+});
+
 app.get('/shops', (req, res) => {
   shops.forEach(shop => shop.ratingValue = Math.floor(Math.random() * 4) + 1);
 
