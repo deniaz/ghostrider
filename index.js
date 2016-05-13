@@ -7,7 +7,7 @@ const apiaryBaseUrl = process.env.APIARY_BASE_URL;
 const traildevilsBaseUrl = process.env.TRAILDEVILS_BASE_URL;
 
 const trails = require('./data/trails.json');
-const shops = require('./data/shops.json');
+const shops  = require('./data/shops.json');
 
 app.use(bodyParser.json());
 
@@ -42,6 +42,8 @@ app.get('/destinations', (req, res) => {
 });
 
 app.get('/shops', (req, res) => {
+  shops.forEach(shop => shop.ratingValue = Math.floor(Math.round() * 4) + 1);
+
   if (req.query.q && req.query.q.length > 0) {
     res
       .type('application/json')
