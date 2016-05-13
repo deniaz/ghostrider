@@ -77,6 +77,38 @@ app.get('/trails', (req, res) => {
   }
 });
 
+app.get('/trails/:id', (req, res) => {
+  const trail = trails.find(el => el.id === req.params.id);
+  trail.description = 'Der Begriff Singletrail steht für einen Pfad, der so schmal ist, dass man dort nicht nebeneinander fahren oder laufen kann. Zunächst fand er Verwendung im Bereich des Mountainbike-Sports, in letzter Zeit wird er ebenfalls im Bereich des Trailrunning verwendet. In der Regel sind Singletrails etwa 30 bis 60 cm breit.';
+  trail.facts = {
+    distance: '20km',
+    altitudeUp: '1800hm',
+    altitudeDown: '220hm',
+    timeInMinutes: 150,
+    difficulty: 2,
+  };
+
+  trail.types = [{
+    id: 'a1b2c3d4e5',
+    name: 'Downhill'
+  }, {
+    id: 'f6g7h8i9j1',
+    name: 'Freeride',
+  }];
+
+  if (trail) {
+    res
+      .type('application/json')
+      .status(200)
+      .json(trail);
+  } else {
+    res
+      .type('application/json')
+      .status(404)
+      .send();
+  }
+});
+
 app.get('/tracks', (req, res) => {
   res
     .type('application/json')
