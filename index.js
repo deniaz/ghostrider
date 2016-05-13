@@ -61,6 +61,30 @@ app.get('/shops', (req, res) => {
   }
 });
 
+app.get('/shops/:id', (req, res) => {
+  const shop = shops.find(el => el.id === req.params.id);
+
+  if (shop) {
+    shop.openingTimes = 'Mo - Fr: 8.00 - 17.00\nSa: 10.00 - 14.00';
+    shop.website = 'http://example.com';
+    shop.phone = '+41 23 456 78 90';
+    shop.addres = 'Example Road 42\n8000 Zürich';
+    shop.ratingValue = Math.floor(Math.random() * 4) + 1;
+    shop.recommendations = 42;
+
+    res
+      .type('application/json')
+      .status(200)
+      .json(shop);
+
+  } else {
+    res
+      .type('application/json')
+      .status(404)
+      .send();
+  }
+});
+
 app.get('/trails', (req, res) => {
   if (req.query.q && req.query.q.length > 0) {
     res
@@ -81,24 +105,25 @@ app.get('/trails', (req, res) => {
 
 app.get('/trails/:id', (req, res) => {
   const trail = trails.find(el => el.id === req.params.id);
-  trail.description = 'Der Begriff Singletrail steht für einen Pfad, der so schmal ist, dass man dort nicht nebeneinander fahren oder laufen kann. Zunächst fand er Verwendung im Bereich des Mountainbike-Sports, in letzter Zeit wird er ebenfalls im Bereich des Trailrunning verwendet. In der Regel sind Singletrails etwa 30 bis 60 cm breit.';
-  trail.facts = {
-    distance: '20km',
-    altitudeUp: '1800hm',
-    altitudeDown: '220hm',
-    timeInMinutes: 150,
-    difficulty: 2,
-  };
-
-  trail.types = [{
-    id: 'a1b2c3d4e5',
-    name: 'Downhill'
-  }, {
-    id: 'f6g7h8i9j1',
-    name: 'Freeride',
-  }];
 
   if (trail) {
+    trail.description = 'Der Begriff Singletrail steht für einen Pfad, der so schmal ist, dass man dort nicht nebeneinander fahren oder laufen kann. Zunächst fand er Verwendung im Bereich des Mountainbike-Sports, in letzter Zeit wird er ebenfalls im Bereich des Trailrunning verwendet. In der Regel sind Singletrails etwa 30 bis 60 cm breit.';
+    trail.facts = {
+      distance: '20km',
+      altitudeUp: '1800hm',
+      altitudeDown: '220hm',
+      timeInMinutes: 150,
+      difficulty: 2,
+    };
+
+    trail.types = [{
+      id: 'a1b2c3d4e5',
+      name: 'Downhill'
+    }, {
+      id: 'f6g7h8i9j1',
+      name: 'Freeride',
+    }];
+
     res
       .type('application/json')
       .status(200)
