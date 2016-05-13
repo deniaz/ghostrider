@@ -23,11 +23,16 @@ app.post('/register', require('./controller/register'));
 
 app.get('/destinations', (req, res) => {
   request(`${traildevilsBaseUrl}/destinations`, (err, response, body) => {
+    const destinations = JSON.parse(body);
+    destinations.forEach(el => {
+      el.logo = 'http://traildevils.ch/img/thumbm/023670e7a695cd84a91a08d23f2ebfc6.jpg';
+    });
+
     if (req.query.q && req.query.q.length > 0) {
       res
         .type('application/json')
         .status(200)
-        .json(JSON.parse(body).filter(
+        .json(destinations.filter(
           el => el.name
             .toLowerCase()
             .includes(req.query.q.toLowerCase())
@@ -36,7 +41,7 @@ app.get('/destinations', (req, res) => {
       res
         .type('application/json')
         .status(200)
-        .json(JSON.parse(body));
+        .json(destinations);
     }
   });
 });
@@ -47,7 +52,15 @@ app.get('/destinations/:id', (req, res) => {
     const destination = destinations.find(el => el.id === req.params.id);
 
     if (destination) {
-      destination.trails = [];
+      destination.trails = [{
+        "id": "db17fb77bf7dc3ae927408d22ef165ee",
+        "name": "Älpliseetrail"
+      },
+      {
+        "id": "6c79a0896f66cf05c1b608d22ef16648",
+        "name": "Lenzerheide Bikepark"
+      }];
+      destination.logo = 'http://traildevils.ch/img/thumbm/023670e7a695cd84a91a08d23f2ebfc6.jpg';
 
       res
         .type('application/json')
