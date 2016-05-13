@@ -42,7 +42,7 @@ app.get('/destinations', (req, res) => {
 });
 
 app.get('/shops', (req, res) => {
-  shops.forEach(shop => shop.ratingValue = Math.floor(Math.round() * 4) + 1);
+  shops.forEach(shop => shop.ratingValue = Math.floor(Math.random() * 4) + 1);
 
   if (req.query.q && req.query.q.length > 0) {
     res
