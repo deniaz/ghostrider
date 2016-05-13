@@ -8,13 +8,12 @@ module.exports = function login(req, res) {
   });
 
   if (user) {
-    let dto = Object.assign({}, user);
-    delete dto.password;
-
     res
       .type('application/json')
       .status(200)
-      .json(dto);
+      .json({
+        accessToken: user.auth_token
+      });
   } else {
     res
       .status(404)

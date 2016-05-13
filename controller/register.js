@@ -62,12 +62,11 @@ module.exports = function register(req, res) {
 
     users.push(user);
 
-    let dto = Object.assign({}, user);
-    delete dto.password;
-
     res
       .type('application/json')
       .status(200)
-      .json(dto);
+      .json({
+        accessToken: user.auth_token
+      });
   }
 };

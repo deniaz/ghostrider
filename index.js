@@ -8,6 +8,7 @@ const traildevilsBaseUrl = process.env.TRAILDEVILS_BASE_URL;
 
 const trails = require('./data/trails.json');
 const shops  = require('./data/shops.json');
+const users = require('./collections/users');
 
 app.use(bodyParser.json());
 
@@ -20,6 +21,25 @@ app.set('port', (process.env.PORT || 1337));
 app.post('/login', require('./controller/login'));
 
 app.post('/register', require('./controller/register'));
+
+app.get('/user', (req, res) => {
+  const token = req.get('Authorization');
+  const user = users.find(u => u.auth_token === token);
+  let payload = Object.assign({}, user);
+  delete payload.password;
+
+  if (!user) {
+    res
+      .type('application/json')
+      .status(401)
+      .send();
+  } else {
+    res
+      .type('application/json')
+      .status(200)
+      .json(payload);
+  }
+});
 
 app.get('/destinations', (req, res) => {
   request(`${traildevilsBaseUrl}/destinations`, (err, response, body) => {
