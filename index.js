@@ -60,6 +60,7 @@ app.get('/destinations/:id', (req, res) => {
         "id": "6c79a0896f66cf05c1b608d22ef16648",
         "name": "Lenzerheide Bikepark"
       }];
+      destination.website = 'http://www.lenzerheide.ch';
       destination.logo = 'http://traildevils.ch/img/thumbm/023670e7a695cd84a91a08d23f2ebfc6.jpg';
 
       res
