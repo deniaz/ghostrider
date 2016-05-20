@@ -17,6 +17,6 @@ module.exports = function login(req, res) {
   } else {
     res
       .status(404)
-      .send('Check your credentials.');
+      .send('Falscher Benutzername oder Passwort.');
   }
 };
