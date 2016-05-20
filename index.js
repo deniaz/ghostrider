@@ -124,7 +124,11 @@ app.get('/shops/:id', (req, res) => {
     shop.website = 'http://example.com';
     shop.phone = '+41 23 456 78 90';
     shop.address = 'Example Road 42\n8000 Zürich';
-    shop.ratingValue = Math.floor(Math.random() * 4) + 1;
+    shop.rating = {
+      value: Math.floor(Math.random() * 4) + 1,
+      count: Math.floor(Math.random() * 25) + 1,
+    };
+
     shop.recommendations = 42;
 
     res
@@ -137,6 +141,20 @@ app.get('/shops/:id', (req, res) => {
       .type('application/json')
       .status(404)
       .send();
+  }
+});
+
+app.post('/shops/rating', (req, res) => {
+  if (!req.header('Authorization')) {
+    res.status(401).send();
+  } else {
+    res
+      .type('application/json')
+      .status(201)
+      .json({
+        value: req.body.value,
+        count: Math.floor(Math.random() * 25)+ 1,
+      });
   }
 });
 
@@ -179,6 +197,20 @@ app.get('/trails/:id', (req, res) => {
       name: 'Freeride',
     }];
 
+    delete trail.ratingValue;
+
+    trail.rating = {
+      value: Math.floor(Math.random() * 4) + 1,
+      count: Math.floor(Math.random() * 25) + 1,
+    };
+
+    trail.condition = {
+      estimation: trail.conditionEstimation,
+      value: Math.floor(Math.random() * 25) + 1,
+    };
+
+    delete trail.conditionEstimation;
+
     res
       .type('application/json')
       .status(200)
@@ -188,6 +220,34 @@ app.get('/trails/:id', (req, res) => {
       .type('application/json')
       .status(404)
       .send();
+  }
+});
+
+app.post('/trails/rating', (req, res) => {
+  if (!req.header('Authorization')) {
+    res.status(401).send();
+  } else {
+    res
+      .type('application/json')
+      .status(201)
+      .json({
+        value: req.body.value,
+        count: Math.floor(Math.random() * 25)+ 1,
+      });
+  }
+});
+
+app.post('/trails/condition', (req, res) => {
+  if (!req.header('Authorization')) {
+    res.status(401).send();
+  } else {
+    res
+      .type('application/json')
+      .status(201)
+      .json({
+        estimation: req.body.estimation,
+        count: Math.floor(Math.random() * 25) + 1,
+      });
   }
 });
 
