@@ -206,7 +206,7 @@ app.get('/trails/:id', (req, res) => {
 
     trail.condition = {
       estimation: trail.conditionEstimation,
-      value: Math.floor(Math.random() * 25) + 1,
+      count: Math.floor(Math.random() * 25) + 1,
     };
 
     delete trail.conditionEstimation;
