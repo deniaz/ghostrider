@@ -205,7 +205,7 @@ app.get('/trails/:id', (req, res) => {
     };
 
     trail.condition = {
-      estimation: trail.conditionEstimation,
+      estimation: trail.conditionEstimation || 0,
       count: Math.floor(Math.random() * 25) + 1,
     };
 
