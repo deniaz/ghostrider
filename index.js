@@ -231,7 +231,7 @@ app.post('/trails/rating', (req, res) => {
       .type('application/json')
       .status(201)
       .json({
-        value: req.body.value,
+        value: req.body.rating,
         count: Math.floor(Math.random() * 25)+ 1,
       });
   }
@@ -245,7 +245,7 @@ app.post('/trails/condition', (req, res) => {
       .type('application/json')
       .status(201)
       .json({
-        estimation: req.body.estimation,
+        estimation: req.body.condition,
         count: Math.floor(Math.random() * 25) + 1,
       });
   }
