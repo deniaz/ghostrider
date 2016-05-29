@@ -258,24 +258,6 @@ app.get('/tracks', (req, res) => {
     .json(require('./data/tracks.json'));
 })
 
-app.post('/trails/rating', (req, res) => {
-  res
-    .type('application/json')
-    .status(200)
-    .json({
-      rating: req.body.rating,
-    });
-});
-
-app.post('/trails/condition', (req, res) => {
-  res
-    .type('application/json')
-    .status(200)
-    .json({
-      condition: req.body.condition,
-    });
-});
-
 app.get('/search', (req, res) => {
   request(`${apiaryBaseUrl}/search`, (err, response, body) => {
     res
