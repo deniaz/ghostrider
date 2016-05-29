@@ -152,7 +152,7 @@ app.post('/shops/rating', (req, res) => {
       .type('application/json')
       .status(201)
       .json({
-        value: req.body.value,
+        value: req.body.rating,
         count: Math.floor(Math.random() * 25)+ 1,
       });
   }
