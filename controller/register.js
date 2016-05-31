@@ -66,7 +66,7 @@ module.exports = function register(req, res) {
       .type('application/json')
       .status(200)
       .json({
-        accessToken: user.auth_token
+        access_token: user.auth_token
       });
   }
 };

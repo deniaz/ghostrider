@@ -12,7 +12,7 @@ module.exports = function login(req, res) {
       .type('application/json')
       .status(200)
       .json({
-        accessToken: user.auth_token
+        access_token: user.auth_token
       });
   } else {
     res
