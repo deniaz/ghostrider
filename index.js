@@ -159,31 +159,13 @@ app.post('/shops/rating', (req, res) => {
 });
 
 app.get('/trails', (req, res) => {
-  if (req.query.live) {
-    request(`${traildevilsBaseUrl}/trails`, (err, response, body) => {
-      const liveTrails = JSON.parse(body);
-      if (req.query.q && req.query.q.length > 0) {
-        res
-          .type('application/json')
-          .status(200)
-          .json(liveTrails.filter(
-            el => el.name
-              .toLowerCase()
-              .includes(req.query.q.toLowerCase())
-          ));
-      } else {
-        res
-          .type('application/json')
-          .status(200)
-          .json(liveTrails);
-      }
-    });
-  } else {
+  request(`${traildevilsBaseUrl}/trails`, (err, response, body) => {
+    const liveTrails = JSON.parse(body);
     if (req.query.q && req.query.q.length > 0) {
       res
         .type('application/json')
         .status(200)
-        .json(trails.filter(
+        .json(liveTrails.filter(
           el => el.name
             .toLowerCase()
             .includes(req.query.q.toLowerCase())
@@ -192,9 +174,46 @@ app.get('/trails', (req, res) => {
       res
         .type('application/json')
         .status(200)
-        .json(trails);
+        .json(liveTrails);
     }
-  }
+  });
+
+  //if (req.query.live) {
+  //  request(`${traildevilsBaseUrl}/trails`, (err, response, body) => {
+  //    const liveTrails = JSON.parse(body);
+  //    if (req.query.q && req.query.q.length > 0) {
+  //      res
+  //        .type('application/json')
+  //        .status(200)
+  //        .json(liveTrails.filter(
+  //          el => el.name
+  //            .toLowerCase()
+  //            .includes(req.query.q.toLowerCase())
+  //        ));
+  //    } else {
+  //      res
+  //        .type('application/json')
+  //        .status(200)
+  //        .json(liveTrails);
+  //    }
+  //  });
+  //} else {
+  //  if (req.query.q && req.query.q.length > 0) {
+  //    res
+  //      .type('application/json')
+  //      .status(200)
+  //      .json(trails.filter(
+  //        el => el.name
+  //          .toLowerCase()
+  //          .includes(req.query.q.toLowerCase())
+  //      ));
+  //  } else {
+  //    res
+  //      .type('application/json')
+  //      .status(200)
+  //      .json(trails);
+  //  }
+  //}
 });
 
 app.get('/trails/:id', (req, res) => {
