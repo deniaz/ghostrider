@@ -159,39 +159,39 @@ app.post('/shops/rating', (req, res) => {
 });
 
 app.get('/trails', (req, res) => {
-  request(`${traildevilsBaseUrl}/trails`, (err, response, body) => {
-    const liveTrails = JSON.parse(body);
-    if (req.query.q && req.query.q.length > 0) {
-      res
-        .type('application/json')
-        .status(200)
-        .json(liveTrails.filter(
-          el => el.name
-            .toLowerCase()
-            .includes(req.query.q.toLowerCase())
-        ));
-    } else {
-      res
-        .type('application/json')
-        .status(200)
-        .json(liveTrails);
-    }
-  });
-  //if (req.query.q && req.query.q.length > 0) {
-  //  res
-  //    .type('application/json')
-  //    .status(200)
-  //    .json(trails.filter(
-  //      el => el.name
-  //        .toLowerCase()
-  //        .includes(req.query.q.toLowerCase())
-  //    ));
-  //} else {
-  //  res
-  //    .type('application/json')
-  //    .status(200)
-  //    .json(trails);
-  //}
+  //request(`${traildevilsBaseUrl}/trails`, (err, response, body) => {
+  //  const liveTrails = JSON.parse(body);
+  //  if (req.query.q && req.query.q.length > 0) {
+  //    res
+  //      .type('application/json')
+  //      .status(200)
+  //      .json(liveTrails.filter(
+  //        el => el.name
+  //          .toLowerCase()
+  //          .includes(req.query.q.toLowerCase())
+  //      ));
+  //  } else {
+  //    res
+  //      .type('application/json')
+  //      .status(200)
+  //      .json(liveTrails);
+  //  }
+  //});
+  if (req.query.q && req.query.q.length > 0) {
+    res
+      .type('application/json')
+      .status(200)
+      .json(trails.filter(
+        el => el.name
+          .toLowerCase()
+          .includes(req.query.q.toLowerCase())
+      ));
+  } else {
+    res
+      .type('application/json')
+      .status(200)
+      .json(trails);
+  }
 });
 
 app.get('/trails/:id', (req, res) => {
